@@ -1,5 +1,5 @@
 `GAPIT.Compress` <-
-function(KI,kinship.cluster = "average",kinship.group = "Mean",GN=nrow(KI),Timmer,Memory,my.Group.custom){
+function(KI,kinship.cluster = "average",kinship.group = "Mean",GN=nrow(KI),Timmer,Memory,my.Group.custom=my.Group.custom){
 #Object: To cluster individuals into groups based on kinship
 #Output: GA, KG
 #Authors: Alex Lipka and Zhiwu Zhang 
