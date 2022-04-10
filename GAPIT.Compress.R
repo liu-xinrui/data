@@ -1,5 +1,5 @@
 `GAPIT.Compress` <-
-function(KI,kinship.cluster = "average",kinship.group = "Mean",GN=nrow(KI),Timmer,Memory,my.Group.custom=my.Group.custom){
+function(KI,kinship.cluster = "average",kinship.group = "Mean",GN=nrow(KI),Timmer,Memory){
 #Object: To cluster individuals into groups based on kinship
 #Output: GA, KG
 #Authors: Alex Lipka and Zhiwu Zhang 
@@ -42,11 +42,24 @@ Timmer=GAPIT.Timmer(Timmer=Timmer,Infor="CP cluster")
 Memory=GAPIT.Memory(Memory=Memory,Infor="cp cluster")
 
 # Cutree will assign lines into k clusters
-if(is.null(my.Group.custom)){
-    group.membership <- cutree(cluster.distance.matrix, k = GN)
-    }else{
-      group.membership <- my.Group.custom #coustom my group by input,by xinrui liu modifed  
-    }
+#if(is.null(my.Group.custom)){
+#    group.membership <- cutree(cluster.distance.matrix, k = GN)
+#    }else{
+#      group.membership <- my.Group.custom #coustom my group by input,by xinrui liu modifed  
+#    }
+group.membership <- c(1,1,1,2,3,2,2,4,4,4,
+                        5,5,5,6,6,7,6,8,8,8,
+                        9,9,9,10,10,10,7,11,
+                        11,11,12,12,12,31,13,
+                        13,13,7,14,14,14,31,
+                        31,31,15,15,15,16,17,
+                        16,16,18,18,18,19,19,
+                        19,20,20,17,20,21,21,
+                        21,22,22,22,23,23,23,
+                        17,24,24,24,25,25,25,
+                        26,26,26,27,28,27,27,
+                        29,29,29,30,30,30,3,3,
+                        28,28)
 
 compress_z=table(group.membership,paste(line.names))  #build compress z with group.membership
 
