@@ -1,5 +1,6 @@
 rm(list=ls())
-install.packages("magick")
+if(!require(gplots)) install.packages("magick")
+#install.packages("magick")
 library(grid)
 library(magick)
 heart <- function(lcolor){
@@ -22,10 +23,9 @@ heart("hotpink")
 vp3 <- viewport(1.4, 0.5, w=1.6, h=1.6,angle=-30)
 pushViewport(vp3)
 heart("red")
-grid.text("嘉博老师教师节快乐",x=0.2,y =1.2, just = c("center", "bottom"),
+grid.text("嘉博老师教师节快乐",x=0.2,y=1.2, just = c("center", "bottom"),
           gp = gpar(fontsize=20), vp = vp)
 A=image_read("https://raw.githubusercontent.com/liu-xinrui/data/main/jiabo.jpg")
 grid.raster(A, x=0.5, y=0.5,height=0.4) #grid包的函数，叠加图片到现有绘图上
 dev.off()
 print("图片已保存到工作目录下")
-
