@@ -1,237 +1,280 @@
 {
-    "name": "UI",
+    "name": "MR",
     "children": [
         {
-            "name": "TG",
+            "name": "UI",
             "children": [
                 {
-                    "name": "rs41785",
+                    "name": "TG",
                     "children": [
                         {
-                            "name": "CAPZA2"
+                            "name": "rs41785",
+                            "children": [
+                                {
+                                    "name": "CAPZA2",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "HIPadjBMI",
-        },
-        {
-            "name": "WCadjBMI",
-        },
-        {
-            "name": "LDL",
-            "children":[
+                },
                 {
-                    "name": "rs5758153",
-                    "children": [
-                        {
-                            "name": "SLC25A17"
-                        },
-                        {
-                            "name": "RBX1"
-                        },
-                        {
-                            "name": "XPNPEP3"
-                        },
-                        {
-                            "name": "DNAJB7"
-                        },
-                        {
-                            "name": "ST13"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "HDL",
-            "children": [
+                    "name": "HIPadjBMI",
+                },
                 {
-                    "name": "rs16953475",
+                    "name": "WCadjBMI",
+                },
+                {
+                    "name": "LDL",
+                    "children":[
+                        {
+                            "name": "rs5758153",
+                            "children": [
+                                {
+                                    "name": "SLC25A17",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "RBX1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "XPNPEP3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "DNAJB7",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "ST13",
+                                    "value": 7881
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "HDL",
                     "children": [
                         {
-                            "name": "RAB8B"
-                        },
-                        {
-                            "name": "LACTB"
-                        },
-                        {
-                            "name": "RPS27L"
+                            "name": "rs16953475",
+                            "children": [
+                                {
+                                    "name": "RAB8B",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "LACTB",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "RPS27L",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
                 }
             ]
-        }
-    ]
 
-},
-{
-    "name": "SUI",
-    "children": [
+        },
         {
-            "name": "HDL",
+            "name": "SUI",
             "children": [
                 {
-                    "name": "rs3803501",
+                    "name": "HDL",
                     "children": [
                         {
-                            "name": "TPM1"
+                            "name": "rs3803501",
+                            "children": [
+                                {
+                                    "name": "TPM1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "RPS27L",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "RAB8B",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "LACTB",
+                                    "value": 7881
+                                }
+                            ]
                         },
                         {
-                            "name": "RPS27L"
-                        },
+                            "name": "rs4795369",
+                            "children": [
+                                {
+                                    "name": "TCAP",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "CDK12",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "MED1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "PPP1R1B",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "PNMT",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "NEUROD2",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "PGAP3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "FBXL20",
+                                    "value": 7881
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "UUI",
+            "children": [
+                {
+                    "name": "LDL",
+                    "children": [
                         {
-                            "name": "RAB8B"
-                        },
-                        {
-                            "name": "LACTB"
+                            "name": "rs4297946",
+                            "children": [
+                                {
+                                    "name": "EMILIN3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "PLCG1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "ZHX3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "TOP1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "LPIN3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "CHD6",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "name": "rs4795369",
+                    "name": "TC",
                     "children": [
                         {
-                            "name": "TCAP"
+                            "name": "rs4297946",
+                            "children": [
+                                {
+                                    "name": "EMILIN3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "PLCG1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "ZHX3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "TOP1",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "LPIN3",
+                                    "value": 7881
+                                },
+                                {
+                                    "name": "CHD6",
+                                    "value": 7881
+                                }
+                            ]
                         },
                         {
-                            "name": "CDK12"
-                        },
-                        {
-                            "name": "MED1"
-                        },
-                        {
-                            "name": "PPP1R1B"
-                        },
-                        {
-                            "name": "PNMT"
-                        },
-                        {
-                            "name": "NEUROD2"
-                        },
-                        {
-                            "name": "PGAP3"
-                        },
-                        {
-                            "name": "FBXL20"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "UUI",
-    "children": [
-        {
-            "name": "LDL",
-            "children": [
-                {
-                    "name": "rs4297946",
-                    "children": [
-                        {
-                            "name": "EMILIN3"
-                        },
-                        {
-                            "name": "PLCG1"
-                        },
-                        {
-                            "name": "ZHX3"
-                        },
-                        {
-                            "name": "TOP1"
-                        },
-                        {
-                            "name": "LPIN3"
-                        },
-                        {
-                            "name": "CHD6"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "TC",
-            "children": [
-                {
-                    "name": "rs4297946",
-                    "children": [
-                        {
-                            "name": "EMILIN3"
-                        },
-                        {
-                            "name": "PLCG1"
-                        },
-                        {
-                            "name": "ZHX3"
-                        },
-                        {
-                            "name": "TOP1"
-                        },
-                        {
-                            "name": "LPIN3"
-                        },
-                        {
-                            "name": "CHD6"
+                            "name": "rs12981080",
+                            "children": [
+                                {
+                                    "name": "QPCTL",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "name": "rs12981080",
+                    "name": "TG",
                     "children": [
                         {
-                            "name": "QPCTL"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "TG",
-            "children": [
-                {
-                    "name": "rs4800488",
-                    "children": [
+                            "name": "rs4800488",
+                            "children": [
+                                {
+                                    "name": "C18orf8",
+                                    "value": 7881
+                                }
+                            ]
+                        },
                         {
-                            "name": "C18orf8"
+                            "name": "rs9889262",
+                            "children": [
+                                {
+                                    "name": "ZNF652",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "name": "rs9889262",
+                    "name": "BMI",
                     "children": [
                         {
-                            "name": "ZNF652"
+                            "name": "rs2435307",
+                            "children": [
+                                {
+                                    "name": "C18orf8",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "BMI",
-            "children": [
+                },
                 {
-                    "name": "rs2435307",
+                    "name": "HDL",
                     "children": [
                         {
-                            "name": "C18orf8"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "HDL",
-            "children": [
-                {
-                    "name": "rs2435307",
-                    "children": [
-                        {
-                            "name": "C18orf8"
+                            "name": "rs2435307",
+                            "children": [
+                                {
+                                    "name": "C18orf8",
+                                    "value": 7881
+                                }
+                            ]
                         }
                     ]
                 }
